@@ -1,0 +1,103 @@
+.header {
+    text-align: center; /* Выравнивание по центру */
+    
+}
+h1{
+    margin:15px;
+}
+.bottom {
+    text-align: center; /* Выравнивание по центру */
+    display: none;
+}
+ 
+body { 
+    text-align: center; /* Выравнивание по центру */
+    background-color: #FCE4C2;
+    font-family: 'Trebuchet MS',sans-serif;
+    margin: 0px;
+}
+ 
+
+ }
+.list {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    position: absolute;
+    float: left;
+}
+li {
+    margin: 0;
+    padding: 2px 0 2px 30px;
+    list-style: none;
+    margin: 0;
+	background-image: url(imgs/zn.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 15%;
+    
+    
+}
+
+ul {
+  position: absolute;
+  left: 0px;
+  text-align: left;
+  
+}
+
+#firstInp {
+    margin: 2px auto;
+}
+
+#secInp {
+    margin: 2px auto;
+}
+
+#rasschet {
+    margin: 5px auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+a {
+  text-decoration:none;
+  color: #659B6E;
+}
+
+.test {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  /* background-color: #ffffff; */
+  background-image: url(imgs/n1.jpg), url(imgs/n2.jpg), url(imgs/n3.jpg), url(imgs/n4.jpg);
+  background-size: 50px auto;
+  background-repeat: no-repeat;
+  background-position: top left, 10px 10px, 20px 20px, 30px 30px;
+
+}
+
+
+.foot {
+    background-color: #ffffff;
+    /* padding-bottom: 0%;   */
+    /* display: none; */
+    text-align: center; /* Выравнивание по центру */
+    position: absolute;
+    bottom: 0%;
+    right: 2vw;
+    left: 2vw;
+    width: 96vw;
+    margin: 0%;
+}
+
+h3{
+    margin: 2px auto;
+}
+
+#report {
+    width: 20em;
+    resize: none;
+}
